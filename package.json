@@ -5,13 +5,14 @@
         "docs": "jsdoc dist/main.js -R README.md -d docs/"
     },
     "dependencies": {
-        "chalk": "^2.4.2"
+        "chalk": "2.4.2"
     },
     "name": "sudsolver",
     "version": "1.0.0",
     "main": "dist/main.js",
     "license": "GPL-3.0",
     "devDependencies": {
-        "jsdoc": "^3.5.5"
+        "jsdoc": "^3.5.5",
+        "typescript": "3.3.4000"
     }
 }
