@@ -1,7 +1,8 @@
 {
     "scripts": {
-        "build": "tsc --resolveJsonModule && jsdoc dist/main.js",
-        "start": "yarn build && node dist/main.js"
+        "build": "tsc --resolveJsonModule && npm run docs",
+        "start": "npm run build && node dist/main.js",
+        "docs": "jsdoc dist/main.js -R README.md -d docs/"
     },
     "dependencies": {
         "chalk": "^2.4.2"
