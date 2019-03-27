@@ -1,20 +1,21 @@
 # Code Challenge 44 - Sudoku Solver
 
-*Want to see more Code Challenge solutions? Click [here](https://bitbucket.org/ponkey364codechallenges/)*
+_Want to see more Code Challenge solutions? Click [here](https://bitbucket.org/ponkey364codechallenges/)_
+
+## [Docs](https://ponkey364.github.io/CC-44/index.html)
 
 ## Info
 
-### Abilities
-This program can solve simple sudoku (see the one in `puzzles.json`)
+This program can solve simple sudoku, like the 'easy' one in your daily newspaper of choice (see the one in `puzzles.json`)
 
-### Limitations
 It's not very good at difficult sudoku, if it might require backtracking and/or lots of thought, then this can't solve it. There are better ones on the internet.
 
 ## Building and Running
 
 ### Requirements
+
 - NodeJS
-- Yarn (*NPM will work*)
+- Yarn (_NPM will work_)
 - Some puzzles to solve
 
 ### Building
