@@ -12,7 +12,7 @@
     "main": "dist/main.js",
     "license": "GPL-3.0",
     "devDependencies": {
-        "jsdoc": "^3.5.5",
+        "jsdoc": "^3.6.4",
         "typescript": "3.3.4000"
     }
 }
